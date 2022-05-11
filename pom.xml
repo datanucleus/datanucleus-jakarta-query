@@ -9,7 +9,7 @@
     </parent>
 
     <artifactId>datanucleus-jakarta-query</artifactId>
-    <version>6.0.0-m2-SNAPSHOT</version>
+    <version>6.0.0-release-SNAPSHOT</version>
 
     <name>DataNucleus Jakarta Query</name>
     <description>
@@ -36,6 +36,8 @@
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
+                    <source>11</source>
+                    <target>11</target>
                     <compilerArgument> -proc:none</compilerArgument>
                 </configuration>
             </plugin>
